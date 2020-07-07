@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Consumiendo ServiceWeb de Spring Boot Demo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <script src="FindAll.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Consumiendo servicios web</h1>
+    <p class="well">from: <a>http://localhost:8080/CategoryRestService/FindAll</a></p>
+</div>
+
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th> 
+        <th scope="col">Nombre</th>
+        <th scope="col">Descripcion</th>
+      </tr>
+    </thead>
+    <tbody class="table-to-insert">
+      <!--A row-
+      <tr>
+        <th scope="row" class="id"></th>
+        <td class="name"></td>
+        <td class="description"></td>
+      </tr>-->
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
